@@ -1,0 +1,107 @@
+h1, h2, h3, p, ul{
+      font-family: monospace;
+}
+
+body{
+      background-color: #CCE4F4;
+}
+
+header{
+      font-weight: 400;
+}
+.introduccion{
+      font-weight: 500;
+}
+
+.reglas li{
+      margin-top: 8px;
+}
+
+.interfaz{
+      display: flex;
+      flex-direction: column;
+      min-width: 280px;
+      width: 65%;
+}
+
+.interfaz input{
+      text-align: left;
+      vertical-align: top;
+      font-size: 120%;
+      border: 1px solid black;
+      border-style: groove;
+      padding-left: 3px;
+}
+
+.buttons{
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+}
+
+.buttons button{
+      width: 48%;
+      height: 40px;
+      font-size: 115%;
+      font-style: italic;
+      font-weight: 200;
+      border-style: outset;
+}
+
+button:hover{
+      width: 50%;
+      height: 50px;
+      font-size: 120%;
+      transition: 0.3s all ease;
+      box-shadow: 0 -5px 3px -3px gray, 0 5px 3px -3px
+}
+
+.encriptar{
+      background-color: #FF3B3F;
+      border-color: #232323;
+}
+
+.desencriptar{
+      background-color: #A9A9A9;
+      border-color: #232323;
+}
+
+footer{
+      padding-top: 15px;
+      text-align: center;
+      font-size: 130%;
+      background-color: rgb(41, 200, 240, 0.25);
+}
+
+.logo-github{
+      margin-top: 8px;
+      padding-top: -2px;
+      width: 70px;
+      height: 70px;
+}
+
+.logo-github:hover{
+      width: 80px;
+      height: 80px;
+      animation: shake 3s;
+}
+
+.mensaje-github{
+      font-size: 12px;
+}
+
+@keyframes shake {
+      10%{
+            transform: rotate(15deg);
+      }
+      20%{
+            transform: rotate(-15deg);
+      }
+      30%{
+            transform: rotate(15deg);
+      }
+      40%{
+            transform: rotate(-15deg);
+      }
+}
