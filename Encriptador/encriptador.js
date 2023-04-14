@@ -55,5 +55,5 @@ function desencriptar(){
             mensaje = mensaje.replace("ufat", "u");
       }
       var final = document.querySelector(".texto-encriptado");
-      final.textContent = "La encriptación del mensajes es: \n" + mensaje;
+      final.textContent = "La desencriptación del mensajes es: \n" + mensaje;
 }
